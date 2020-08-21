@@ -3,11 +3,11 @@ print ("Hola, vamos a valorar el estado en el que te encuentras, para ello por f
 procedencia = input ("Por favor ingrese su lugar de procedencia:")
 temperatura = float (input("Por favor ingrese su temperatura : "))
 
-if (procedencia == "China"):
+if (procedencia == "China" or procedencia == "china"):
     print ("Estado en Observación")
-elif (procedencia == "Iran"):
+elif (procedencia == "Iran" or procedencia == "iran"):
     print ("Estado en Observación")
-elif (procedencia == "Italia"):
+elif (procedencia == "Italia" or procedencia == "italia"):
     print ("Estado en Observación")
 elif (temperatura >= 36 and temperatura <= 38.4):
     print ("Estado Saludable")
