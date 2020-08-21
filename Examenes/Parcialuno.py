@@ -1,6 +1,6 @@
 print ("Hola, vamos a valorar el estado en el que te encuentras, para ello por favor ingresa los datos siguientes")
 
-procedencia =  input ("Por favor ingrese su lugar de procedencia:")
+procedencia = input ("Por favor ingrese su lugar de procedencia:")
 temperatura = float (input("Por favor ingrese su temperatura : "))
 
 if (procedencia == "China"):
