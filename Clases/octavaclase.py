@@ -15,3 +15,15 @@ while( dado != numeroIngresado) :
 print(mensajeExitoso)
 print(mensajeDespedida)
 
+#-----ListaAlimentos----#
+
+listaAlimentos = []
+listaAlimentos = ["manzana", 
+        "lasagna",
+        "creps",
+        "baby beef"]
+sizeList = len (listaAlimentos)
+
+for i in range (sizeList) :
+        print (f"{listaAlimentos [i]}")
+
