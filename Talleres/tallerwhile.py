@@ -33,7 +33,7 @@ preguntaNumeroN = "Ahora ingresa un número mayor al anterior : "
 numeroIngresadoM = int(input(preguntaNumeroM))
 numeroIngresadoN = int(input(preguntaNumeroN))
 
-while(numeroIngresadoN > numeroIngresadoM) :
+while(numeroIngresadoN >= numeroIngresadoM) :
     numeroIngresadoM = numeroIngresadoN
     numeroIngresadoN = int(input(preguntaNumeroN))
 print("Has ingresado un número menor o igual al anterion, fin.")
