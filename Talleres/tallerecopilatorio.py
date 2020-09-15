@@ -12,3 +12,15 @@ Por favor ingrese alguna de estas opciones:
             D- Convertir a dolares
             E- Convertir a euros
 : '''
+msjNovalidoN = 'Recuerda ingresar una opción valida : 1,2,3,4'
+msjNovalidoC = 'Recuerda ingresar una opción valida : C,D,E'
+
+mensajeSalida = 'Gracias por usar el programa'
+mensajeDolares = 'No es necesaria la conversión, pero se muestra la lista'
+
+opcion = int(input(preguntaMenu))
+listaGradosC = []
+listaGradosE = []
+listaGradosD = listaDolares
+
+
