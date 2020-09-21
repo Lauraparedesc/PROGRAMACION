@@ -10,8 +10,8 @@ dado = random.randint (1,6)
 numeroIngresado = int(input(preguntaNumero))
 
 while( dado != numeroIngresado) :
-    print(mensajeFallido)
-    numeroIngresado = int(input(preguntaNumero))
+        print(mensajeFallido)
+        numeroIngresado = int(input(preguntaNumero))
 print(mensajeExitoso)
 print(mensajeDespedida)
 
